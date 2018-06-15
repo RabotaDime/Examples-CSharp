@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,8 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BitwiseOps.cs" />
+    <Compile Include="Colors.cs" />
     <Compile Include="CustomConsole.cs" />
     <Compile Include="Enum.cs" />
+    <Compile Include="GraphicsHelper.cs" />
     <Compile Include="MultisetMatcher.cs" />
     <Compile Include="ShortCollections.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
